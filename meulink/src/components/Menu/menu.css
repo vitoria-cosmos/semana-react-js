@@ -1,0 +1,33 @@
+.menu {
+    position: absolute;
+    /* o position absolute torna o elemento em uma posição fixa */
+
+    top: 20px;
+    /* o top torna o elemento em cima da tela, com 20px de distância do topo */
+
+    right: 10%;
+    /* o right torna o elemento a direita da tela, com 10% de distância da direita */
+
+    font-weight: bold;
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.social {
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    color: #000;
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin-right: 14px;
+    /* margin-right = espaçamento a sua direita */
+}
+
